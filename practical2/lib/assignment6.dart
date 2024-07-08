@@ -11,7 +11,7 @@ class assignment6 extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            // First red box
+            
             Container(
               color: Color.fromARGB(255, 193, 3, 10),
               height: 150,
@@ -37,7 +37,7 @@ class assignment6 extends StatelessWidget {
                 ],
               ),
             ),
-            // Second red box
+            
             Container(
               color: Color.fromARGB(255, 193, 3, 10),
               height: 150,
