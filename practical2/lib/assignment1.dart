@@ -6,20 +6,23 @@ class assignment1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromARGB(255, 174, 12, 228),
       appBar: AppBar(),
       body:Container(
-        // height:1
+        // height:
         color: Color.fromARGB(219, 20, 2, 2),
 
         child: Row(
            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
+
             Container(
               height: 100,
               width: 100,
               color:const Color.fromARGB(255, 207, 42, 30),
             ),
+            
             Container(
               height: 100,
               width: 100,

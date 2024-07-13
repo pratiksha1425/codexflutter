@@ -9,7 +9,7 @@ class assignment2 extends StatelessWidget {
       appBar: AppBar(),
       body:Container(
         height: double.infinity,
-        color: Colors.black26,
+        color: const Color.fromARGB(251, 0, 0, 0),
 
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,

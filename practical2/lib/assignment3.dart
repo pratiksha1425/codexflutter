@@ -8,7 +8,7 @@ class assignment3 extends StatelessWidget {
     return Scaffold(
        body:Container(
         height: double.infinity,
-        color: Colors.black26,
+        color: const Color.fromARGB(255, 0, 0, 0),
 
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.end,
