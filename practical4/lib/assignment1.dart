@@ -7,8 +7,9 @@ class Assignment1  extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        centerTitle: true,
+        
         title: Text("Container Image"),
+        centerTitle: true,
         backgroundColor: Color.fromARGB(255, 214, 25, 25),
       ),
       body:Container(
