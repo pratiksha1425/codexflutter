@@ -21,7 +21,8 @@ class Assignment3 extends StatelessWidget {
         
         
         child: SingleChildScrollView(
-          scrollDirection: Axis.horizontal,
+          scrollDirection: Axis.vertical,
+          
           child: Column(
             
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -32,7 +33,10 @@ class Assignment3 extends StatelessWidget {
                 child: Text("Movies",style: TextStyle(fontSize: 10, fontWeight: FontWeight.bold,),),
               
               ),
-              Row(
+              Container(
+               child: SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child:Row(
                 children: [
                 
                   Container(
@@ -116,13 +120,19 @@ class Assignment3 extends StatelessWidget {
                   ),
                 ],
               ),
+               ),
+               ),
               SizedBox(height: 20), 
 
 
                Padding(padding: EdgeInsets.only(left: 20.0),
                 child: Text("WebSeries",style: TextStyle(fontSize: 10, fontWeight: FontWeight.bold),),
               ),
-              Row(
+              
+             Container(
+               child: SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child:Row(
                 children: [
                   Container(
                     height: 150,
@@ -207,6 +217,8 @@ class Assignment3 extends StatelessWidget {
                   ),
                 ],
               ), 
+               ),
+             ),
               
 
                SizedBox(height: 20), 
@@ -214,7 +226,10 @@ class Assignment3 extends StatelessWidget {
                 Padding(padding: EdgeInsets.only(left: 20.0),
                 child: Text("Popular Content",style: TextStyle(fontSize: 10, fontWeight: FontWeight.bold),),
               ),
-              Row(
+             Container(
+               child: SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child:Row(
                 children: [
                   Container(
                     height: 150,
@@ -299,12 +314,15 @@ class Assignment3 extends StatelessWidget {
                   ),
                 ],
               ), 
+               ),
+             ),
               
             ],
             
           ),
         ),
-      ),
+        ),
+      
     );
   }
 }
