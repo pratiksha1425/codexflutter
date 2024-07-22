@@ -14,7 +14,7 @@ class ElevatedbuttonScreen2 extends StatelessWidget {
       body: Container(
         height: double.infinity,
         width: double.infinity,
-        color: Color.fromARGB(255, 108, 106, 104),
+        color: Color.fromARGB(255, 77, 74, 71),
         
         child: Center(
           child: Text("WELCOME ${name}",style: TextStyle(fontSize: 19,color: Colors.white),),
