@@ -6,7 +6,7 @@ class Assignment2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 203, 94, 236),
+      
       appBar: AppBar(
         title: Text(
           "James Gosling",
@@ -32,11 +32,13 @@ class Assignment2 extends StatelessWidget {
                 ),
                 margin: EdgeInsets.only(top: 10),
               ),
+
               SizedBox(height: 10),
+
               Container(
-                width: 300,
+                width: 370,
                 height: 300,
-                padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10), 
+                padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10), 
                 child: Text(
                   'James Gosling OC (born 19 May 1955) is a Canadian computer scientist, best known as the founder and lead designer behind the Java programming language. Gosling was elected a member of the National Academy of Engineering in 2004 for the conception and development of the architecture for the Java programming language and for contributions to window systems.',
                   textAlign: TextAlign.justify,

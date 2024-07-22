@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class assignment3 extends StatelessWidget {
-  assignment3({super.key});
+class Assignment3 extends StatelessWidget {
+  Assignment3({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +14,7 @@ class assignment3 extends StatelessWidget {
         height:100,
         width: 500,
           child: Row(
-            mainAxisAlignment:MainAxisAlignment.start ,
+            // mainAxisAlignment:MainAxisAlignment.start ,
 
             children: [
               Container(
@@ -35,7 +35,8 @@ class assignment3 extends StatelessWidget {
                 ),
               ),
               SizedBox(width: 40,),
-               Text("box 1"),
+              
+               const Text("Box 1"),
             ],
            
           ),

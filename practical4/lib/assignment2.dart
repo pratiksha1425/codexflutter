@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-class assignment2 extends StatelessWidget {
-  const assignment2 ({super.key});
+class Assignment2 extends StatelessWidget {
+  const Assignment2 ({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -14,8 +14,8 @@ class assignment2 extends StatelessWidget {
         backgroundColor: Color.fromARGB(255, 214, 25, 25),
       ),
        body:Container(
-        height: double.infinity,
-        width: double.infinity,
+        // height: double.infinity,
+        // width: double.infinity,
         color: Color.fromARGB(255, 223, 170, 170),
         child:SingleChildScrollView(
               scrollDirection: Axis.vertical,

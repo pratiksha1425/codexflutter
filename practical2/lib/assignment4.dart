@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 
-class assignment4 extends StatelessWidget {
-  const assignment4({super.key});
+class Assignment4 extends StatelessWidget {
+  const Assignment4({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
         body:Container(
         height: double.infinity,
         color: const Color.fromARGB(220, 0, 0, 0),

@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 
-class assignment1 extends StatelessWidget {
-  const assignment1({super.key});
+class Assignment1 extends StatelessWidget {
+  const Assignment1({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 174, 12, 228),
+      // backgroundColor: Color.fromARGB(255, 214, 161, 231),
       appBar: AppBar(),
       body:Container(
-        // height:
-        color: Color.fromARGB(219, 20, 2, 2),
+      // height:double.infinity,
+        color: Color.fromARGB(219, 184, 88, 228),
 
         child: Row(
-           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          //  crossAxisAlignment: CrossAxisAlignment.center,
           children: [
 
             Container(

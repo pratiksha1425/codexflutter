@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class assignment2 extends StatelessWidget {
-  const assignment2({super.key});
+class Assignment2 extends StatelessWidget {
+  const Assignment2({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -9,11 +9,11 @@ class assignment2 extends StatelessWidget {
       appBar: AppBar(),
       body:Container(
         height: double.infinity,
-        color: const Color.fromARGB(251, 0, 0, 0),
+        color: Color.fromARGB(250, 170, 99, 228),
 
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          crossAxisAlignment: CrossAxisAlignment.center,
+          // crossAxisAlignment: CrossAxisAlignment.center,
           
           children: [
             Container(

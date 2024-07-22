@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class assignment5 extends StatelessWidget {
-  const assignment5({super.key});
+class Assignment5 extends StatelessWidget {
+  const Assignment5({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -21,13 +21,15 @@ class assignment5 extends StatelessWidget {
           width: 200,
           //color: Color.fromARGB(255, 230, 191, 191),
           decoration: BoxDecoration(
+             color: Color.fromARGB(254, 18, 200, 36),
+            borderRadius: BorderRadius.circular(150),
+            
             image: DecorationImage(
               image: NetworkImage("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTy5RYAuojXDARoaPBmukXLHj44QNn5dU4SzohSvzsobU4jFwh6"),
               fit: BoxFit.cover,
 
             ),
-            color: Color.fromARGB(254, 18, 200, 36),
-            borderRadius: BorderRadius.circular(150),
+           
           ),
       
       

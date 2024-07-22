@@ -6,6 +6,7 @@ class Assignment5 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
       backgroundColor: Color.fromARGB(255, 241, 216, 216),
       body: Center(
         child: Container(
@@ -13,7 +14,7 @@ class Assignment5 extends StatelessWidget {
           height:200,
           width:300,
           child: Row(
-            crossAxisAlignment: CrossAxisAlignment.center,
+            // crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               Container(
